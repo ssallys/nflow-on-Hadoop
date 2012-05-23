@@ -43,6 +43,8 @@ public class FlowWritable extends org.apache.hadoop.record.Record
 		public static final int[] DST_MASK = {45,1};	
 		public static final int[] PAD2 = {46,2};	
 	}
+	
+	
 
 	protected static final org.apache.hadoop.record.meta.RecordTypeInfo _rio_recTypeInfo;
 	protected static org.apache.hadoop.record.meta.RecordTypeInfo _rio_rtiFilter;
