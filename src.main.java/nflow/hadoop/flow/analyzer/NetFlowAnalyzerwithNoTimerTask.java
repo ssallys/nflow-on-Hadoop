@@ -17,11 +17,11 @@ import org.apache.hadoop.mapred.OutputCollector;
 import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 
+import p3.hadoop.common.pcap.lib.ExtendedBytesWritable;
 import p3.hadoop.common.util.BinaryUtils;
 import p3.hadoop.common.util.BitAdder;
 import p3.hadoop.common.util.Bytes;
 import p3.hadoop.common.util.EZBytes;
-import p3.hadoop.io.ExtendedBytesWritable;
 
 /**
  * NetFlow Ver.5 Packet Analysis

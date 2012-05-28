@@ -33,9 +33,6 @@ import p3.hadoop.common.util.BinaryUtils;
 import p3.hadoop.common.util.BitAdder;
 import p3.hadoop.common.util.Bytes;
 import p3.hadoop.common.util.EZBytes;
-import p3.hadoop.io.ExtendedBytesWritable;
-import p3.hadoop.mapred.BinaryInputFormat;
-import p3.hadoop.mapred.BinaryOutputFormat;
 import p3.hadoop.mapred.PcapInputFormat;
 
 /**
@@ -147,7 +144,6 @@ public class FlowAnalyzer {
     	
 		String delimiter="|";	
 		
-		@Override
         public void reduce(Text key, Iterator<Text> values, OutputCollector<Text, Text> output, Reporter reporter)
                         throws IOException {
         	

@@ -10,8 +10,8 @@ public class FlowMonitorRunner extends TimerTask{
 	
 	FlowPrint fprinter;
 	
-	String flow_inpath = "/user/root/flow_koren";
-	String flow_outpath = "flow_koren_out";
+	String flow_inpath = "/user/flow_cap";
+	String flow_outpath = "flow_cap_out";
 	Calendar cal;
 	
 	public FlowMonitorRunner(){		

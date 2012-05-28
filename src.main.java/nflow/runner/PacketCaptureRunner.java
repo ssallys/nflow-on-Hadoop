@@ -5,16 +5,9 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import p3.hadoop.packet.io.PacketCapturer;
-
-//import nflow.hadoop.flow.io.PacketCapturer;
-
-
-
 public class PacketCaptureRunner {
 	static String ExportIP, DstPort, DeviceName ,DstPath;		
 	static ScheduledExecutorService executor;
-	static PacketCapturer pcap;
 	
 	public static void execute(Runnable command) {
 		  executor.execute(command);

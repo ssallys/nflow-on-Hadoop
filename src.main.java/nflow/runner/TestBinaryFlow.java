@@ -18,8 +18,8 @@ import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 import org.apache.hadoop.mapred.TextOutputFormat;
 
+import p3.hadoop.common.pcap.lib.ExtendedBytesWritable;
 import p3.hadoop.common.util.BitAdder;
-import p3.hadoop.io.ExtendedBytesWritable;
 import p3.hadoop.mapred.BinaryInputFormat;
 import p3.hadoop.mapred.BinaryOutputFormat;
 
