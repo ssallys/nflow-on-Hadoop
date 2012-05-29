@@ -7,8 +7,6 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import p3.hadoop.packet.io.CFlowPacketCapturerTimerTask;
-
 public class FlowCapturerRunner {
 	static String ExportIP, DstPort, DeviceName ,DstPath;			
 

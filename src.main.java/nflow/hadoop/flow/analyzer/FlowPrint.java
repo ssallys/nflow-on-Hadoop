@@ -26,9 +26,9 @@ import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 import org.apache.hadoop.mapred.TextOutputFormat;
 
-import p3.hadoop.common.util.BinaryUtils;
-import p3.hadoop.common.util.Bytes;
-import p3.hadoop.common.util.EZBytes;
+import p3.common.lib.BinaryUtils;
+import p3.common.lib.Bytes;
+import p3.common.lib.EZBytes;
 import p3.hadoop.mapred.PcapInputFormat;
 
 /**

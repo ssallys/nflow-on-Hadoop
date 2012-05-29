@@ -5,9 +5,9 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import org.apache.hadoop.record.Buffer;
 
-import p3.hadoop.common.util.BinaryUtils;
-import p3.hadoop.common.util.Bytes;
-import p3.hadoop.common.util.EZBytes;
+import p3.common.lib.BinaryUtils;
+import p3.common.lib.Bytes;
+import p3.common.lib.EZBytes;
 
 /** This class represents TCP packet. */
 //public class PacketStatWritable extends IPPacket implements WritableComparable<PacketStatWritable>

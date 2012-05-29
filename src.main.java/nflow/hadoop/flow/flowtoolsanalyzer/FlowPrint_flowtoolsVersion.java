@@ -18,7 +18,7 @@ import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 import org.apache.hadoop.mapred.TextOutputFormat;
 
-import p3.hadoop.common.util.EZBytes;
+import p3.common.lib.EZBytes;
 import p3.hadoop.mapred.BinaryInputFormat;
 
 /**
